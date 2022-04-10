@@ -2,13 +2,13 @@
 ## Overview
 ## Results
 ### Linear Regression to Predict MPG
-[Multiple Linear Regression Results]()
+[Multiple Linear Regression Results](https://github.com/MDaily7/MechaCar_Statistical_Analysis/blob/main/Images/MechaCar_multiplelinear.png)
 ### Summary Statistics on Suspension Coils 
-* [PSI Total Summary]() displays the mean, median, variance, and standard deviation of suspension coil PSI across all lots
-* [PSI Lot Summary]() displays the mean, median, variance, and standard deviation of suspension coil PSI by lot
+* [PSI Total Summary](https://github.com/MDaily7/MechaCar_Statistical_Analysis/blob/main/Images/PSI_Total_Summary.PNG) displays the mean, median, variance, and standard deviation of suspension coil PSI across all lots
+* [PSI Lot Summary](https://github.com/MDaily7/MechaCar_Statistical_Analysis/blob/main/Images/PSI_lot_summary.PNG) displays the mean, median, variance, and standard deviation of suspension coil PSI by lot
 ### T-Tests on Suspension Coils
-* [Total Mean T-Test]()
-* [Lot Mean T-Tests]()
+* [Total Mean T-Test](https://github.com/MDaily7/MechaCar_Statistical_Analysis/blob/main/Images/All_Lots_T-test.png)
+* [Lot Mean T-Tests](https://github.com/MDaily7/MechaCar_Statistical_Analysis/blob/main/Images/Lot_T-tests.png)
 ## Summaries
 ### Linear Regression to Predict MPG
 A multiple linear regression was performed to determine if mpg can be predicted by vehicle length, weight, spoiler angle, ground clearance, and all wheel drive capability. 
