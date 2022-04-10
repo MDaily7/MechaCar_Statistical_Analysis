@@ -1,1 +1,27 @@
-# MechaCar_Statistical_Analysis
+# MechaCar Statistical Analysis
+## Overview
+## Results
+### Linear Regression to Predict MPG
+[Multiple Linear Regression Results]()
+### Summary Statistics on Suspension Coils 
+* [PSI Total Summary]() displays the mean, median, variance, and standard deviation of suspension coil PSI across all lots
+* [PSI Lot Summary]() displays the mean, median, variance, and standard deviation of suspension coil PSI by lot
+### T-Tests on Suspension Coils
+
+## Summaries
+### Linear Regression to Predict MPG
+A multiple linear regression was performed to determine if mpg can be predicted by vehicle length, weight, spoiler angle, ground clearance, and all wheel drive capability. 
+As can be seen in the results section, the intercept term explains a significant amount of variability in miles per gallon. Additonally, vehicle length and ground clearance
+also provide non-random variance to mpg values in the dataset (p-values all significantly lower than 0.05). Surprisingly, vehicle weight does not seem to provide non-random 
+variance to mpg with an approximate p-value of 0.08. The p-value of the multiple linear regression model is 5.35e-11 indicating that the slope of the linear model is not
+considered to be zero. The r-squared value of the model is 0.7149 indicating that the model can predict mpg about 70% of the time; with this in mind, it seems that the model
+does not predict mpg of MechaCar prototypes all that effectively especially considering that only two of the five variables provided significant effects to the variability in
+mpg. The lack of significant variables may also indicate that that the model is overfitted which could potentially be artificially raising the r-squared value and mean that
+model would not do well at predicting future data. 
+### Summary Statistics on Suspension Coils 
+According to the design specifications for MechaCar suspension coils, the variance of the coils must not exceed 100 pounds per square inch. In the Total Summary, it can be seen
+that the standard deviation of all lots combined is 7.89 pounds per square inch which meets the specification. The Lot Summary shows that the standard deviation in pounds per square
+inch is less than 100 for each of the lots individually as well. As a note, standard deviation is used here becuase it keeps the units pounds per square inch whereas variance
+would be pounds per square inch squared. 
+###
+## 
