@@ -7,7 +7,8 @@
 * [PSI Total Summary]() displays the mean, median, variance, and standard deviation of suspension coil PSI across all lots
 * [PSI Lot Summary]() displays the mean, median, variance, and standard deviation of suspension coil PSI by lot
 ### T-Tests on Suspension Coils
-
+* [Total Mean T-Test]()
+* [Lot Mean T-Tests]()
 ## Summaries
 ### Linear Regression to Predict MPG
 A multiple linear regression was performed to determine if mpg can be predicted by vehicle length, weight, spoiler angle, ground clearance, and all wheel drive capability. 
@@ -23,5 +24,15 @@ According to the design specifications for MechaCar suspension coils, the varian
 that the standard deviation of all lots combined is 7.89 pounds per square inch which meets the specification. The Lot Summary shows that the standard deviation in pounds per square
 inch is less than 100 for each of the lots individually as well. As a note, standard deviation is used here becuase it keeps the units pounds per square inch whereas variance
 would be pounds per square inch squared. 
-###
-## 
+### T-Tests on Suspension Coils
+Total Mean T-Test shows the results of the t-test comparing the mean PSI of all lots compared to a population mean of 1500psi. The p-value is 0.06 indicating that there is
+not enough evidence to reject the null meaning the two means are not statistically different. Lot Mean T-Tests displays the results of the t-tests comparing the mean psi for
+each lot to a population mean of 1500psi. Lot 3 is the only lot to have a p-value less than 0.05 (Lot3 p-value = 0.04) indicating that it is the only lot with a mean psi that
+is statistically different from the population mean of 1500.
+## Study Design: MechaCar vs Competition
+For this study, the cost of MechaCar vehicles will be compared to the aggregated cost of competitor vehicles (competitors will not be divided by individual competitor). A 
+two-sample t-test will be used to determine if the mean cost of MechaCar vehicles is significantly different than the mean cost of competitor vehicles. The two-sample t-test
+is used becuase two samples with continuous data are being compared. The null hypothesis is that there is no difference in the means costs, and the alternative hypothesis is
+that the mean cost of MechaCar vehicles is statistically different than the mean cost of competitor vehicles. To run the test, MechaCar vehicle costs and the costs of competitor
+vehicles will need to be acquired. To make this study more informative, it may be beneficial to perform this test by vehicle type. For example, MechaCar suburban vehicle costs
+compared to competitor suburban vehicle costs. 
