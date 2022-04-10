@@ -36,3 +36,7 @@ is used becuase two samples with continuous data are being compared. The null hy
 that the mean cost of MechaCar vehicles is statistically different than the mean cost of competitor vehicles. To run the test, MechaCar vehicle costs and the costs of competitor
 vehicles will need to be acquired. To make this study more informative, it may be beneficial to perform this test by vehicle type. For example, MechaCar suburban vehicle costs
 compared to competitor suburban vehicle costs. 
+## Resources
+* R 4.1.3
+* [Images](https://github.com/MDaily7/MechaCar_Statistical_Analysis/tree/main/Images)
+* [RScript](https://github.com/MDaily7/MechaCar_Statistical_Analysis/blob/main/RScripts/MechaCarChallenge.R)
