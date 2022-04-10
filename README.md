@@ -32,7 +32,7 @@ is statistically different from the population mean of 1500.
 ## Study Design: MechaCar vs Competition
 For this study, the cost of MechaCar vehicles will be compared to the aggregated cost of competitor vehicles (competitors will not be divided by individual competitor). A 
 two-sample t-test will be used to determine if the mean cost of MechaCar vehicles is significantly different than the mean cost of competitor vehicles. The two-sample t-test
-is used because two samples with continuous data are being compared. The null hypothesis is that there is no difference in the means costs, and the alternative hypothesis is
+is used because two samples with continuous data are being compared. The null hypothesis is that there is no difference in the mean costs, and the alternative hypothesis is
 that the mean cost of MechaCar vehicles is statistically different than the mean cost of competitor vehicles. To run the test, MechaCar vehicle costs and the costs of competitor
 vehicles will need to be acquired. To make this study more informative, it may be beneficial to perform this test by vehicle type. For example, MechaCar suburban vehicle costs
 compared to competitor suburban vehicle costs. 
