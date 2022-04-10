@@ -1,5 +1,8 @@
 # MechaCar Statistical Analysis
 ## Overview
+The purpose of this project was to gain familiarity with R by conducting a multiple linear regression, obtaining summary statistics, and performing t-tests. The multiple
+linear regression determines how much various vehicle aspects account for the variability in miles per gallon of the vehicle. The summary statistics are obtained for 
+suspension coil psi. The t-tests also use the suspension coil data comparing means to a population mean of 1500psi.
 ## Results
 ### Linear Regression to Predict MPG
 [Multiple Linear Regression Results](https://github.com/MDaily7/MechaCar_Statistical_Analysis/blob/main/Images/MechaCar_multiplelinear.png)
